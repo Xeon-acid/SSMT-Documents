@@ -40,17 +40,28 @@ export default defineConfig({
         items: [
           { text: '(1)分支集合架构', link: '/Tutorials/SSMT-Blender-Plugins/(1)分支集合架构/分支集合架构' },
           { text: '★平滑法线存TEXCOORD1.xy', link: '/Tutorials/SSMT-Blender-Plugins/★平滑法线存TEXCOORD1.xy/★平滑法线存TEXCOORD1.xy' },
-          { text: '★投影TEXCOORD2.xy(近似)', link: '/Tutorials/SSMT-Blender-Plugins/★投影TEXCOORD2.xy(近似)/★投影TEXCOORD2.xy(近似)' }
-
+          { text: '★投影TEXCOORD2.xy(近似)', link: '/Tutorials/SSMT-Blender-Plugins/★投影TEXCOORD2.xy(近似)/★投影TEXCOORD2.xy(近似)' },
         ]
       }],
 
-      '/Tutorials/Games/GI':[{
-        text: 'GI',
-        items: [
-          { text: '10612-4001解决方案', link: '/Tutorials/Games/GI/10612-4001解决方案/10612-4001解决方案.md' },
-        ]
-      }]
+      '/Tutorials/Games/':[
+        {
+          text: 'GI',
+          items: [
+            { text: '10612-4001解决方案', link: '/Tutorials/Games/GI/10612-4001解决方案/10612-4001解决方案' },
+            { text: 'Mod变成一坨', link: '/Tutorials/Games/GI/Mod变成一坨/Mod变成一坨' },
+            { text: 'COLOR不同导致Mod无法显示', link: '/Tutorials/Games/GI/COLOR不同导致Mod无法显示/COLOR不同导致Mod无法显示' },
+            { text: '原神角色轮廓线修复', link: '/Tutorials/Games/GI/原神角色轮廓线修复/原神角色轮廓线修复' },
+            { text: '原神脸部隐藏问题', link: '/Tutorials/Games/GI/原神脸部隐藏问题/原神脸部隐藏问题' },
+          ]
+        },
+        {
+          text: 'YYSLS',
+          items: [
+            { text: 'YYSLS无法注入问题', link: '/Tutorials/Games/YYSLS/YYSLS无法注入问题/YYSLS无法注入问题' },
+          ]
+        },
+      ]
     },
 
     footer: {
