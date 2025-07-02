@@ -8,17 +8,14 @@ hero:
   tagline: 革新Mod制作体验
   actions:
     - theme: brand
-      text: SSMT使用文档
-      link: /markdown-examples
-    - theme: alt
       text: SSMT下载地址
-      link: /api-examples
+      link: https://github.com/StarBobis/SSMT
     - theme: alt
       text: SSMT-Package下载地址
-      link: /api-examples
+      link: https://github.com/StarBobis/SSMT-Package
     - theme: alt
       text: SSMT的Blender插件下载地址
-      link: /api-examples
+      link: https://github.com/StarBobis/SSMT-BlenderPlugin
 
 
 features:
@@ -28,6 +25,6 @@ features:
     details: SSMT拥有更好的界面UI设计，实装了很多基于Mod作者实际操作经验总结出的各种功能上的细节打磨, 优雅永不过时。
   - title: 统一
     details: SSMT持续整合所有的开源脚本功能，使用一套相同且简单的流程支持制作所有支持的游戏Mod，节省了多套工具的学习成本。
-    
+
 ---
 

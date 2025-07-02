@@ -23,7 +23,8 @@ export default defineConfig({
     ],
 
     socialLinks: [
-      { icon: 'github', link: 'https://github.com/vuejs/vitepress' }
+      { icon: 'github', link: 'https://github.com/StarBobis/SSMT' },
+      { icon: 'discord', link: 'https://discord.gg/sMdsGAptss' }
     ]
   }
 })
