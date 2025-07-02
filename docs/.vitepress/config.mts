@@ -2,6 +2,7 @@ import { defineConfig } from 'vitepress'
 
 // https://vitepress.dev/reference/site-config
 export default defineConfig({
+  base:"/SSMT-Documents/",
   title: "SSMT-Documents",
   description: "SSMT's Documtns",
   themeConfig: {
