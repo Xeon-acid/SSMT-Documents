@@ -42,6 +42,13 @@ export default defineConfig({
 
         ]
       }
+      ,
+      {
+        text: 'GI',
+        items: [
+          { text: '10612-4001解决方案', link: '/Tutorials/Games/GI/10612-4001解决方案/10612-4001解决方案.md' },
+        ]
+      }
     ],
 
     footer: {
