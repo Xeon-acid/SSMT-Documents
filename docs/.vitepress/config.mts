@@ -15,10 +15,11 @@ export default defineConfig({
       { text: '主页', link: '/' },
       { text: 'SSMT文档', link: '/Tutorials/SSMT/(1)SSMT安装教程/SSMT安装教程' },
       { text: 'SSMT Blender插件文档', link: '/Tutorials/SSMT-Blender-Plugins/(1)分支集合架构/分支集合架构' },
+      { text: '各游戏常见问题', link: '/Tutorials/Games/GI/10612-4001解决方案/10612-4001解决方案.md' },
     ],
 
-    sidebar: [
-      {
+    sidebar: {
+      '/Tutorials/SSMT/':[{
         text: 'SSMT文档',
         items: [
           { text: '(1)SSMT安装教程', link: '/Tutorials/SSMT/(1)SSMT安装教程/SSMT安装教程' },
@@ -32,8 +33,9 @@ export default defineConfig({
           { text: '(9)贴图格式转换', link: '/Tutorials/SSMT/(9)贴图格式转换/贴图格式转换' },
           { text: '(10)开关红字报错显示', link: '/Tutorials/SSMT/(10)开关红字报错显示/开关红字报错显示' },
         ]
-      },
-      {
+      }],
+
+      '/Tutorials/SSMT-Blender-Plugins/':[{
         text: 'SSMT Blender插件文档',
         items: [
           { text: '(1)分支集合架构', link: '/Tutorials/SSMT-Blender-Plugins/(1)分支集合架构/分支集合架构' },
@@ -41,15 +43,15 @@ export default defineConfig({
           { text: '★投影TEXCOORD2.xy(近似)', link: '/Tutorials/SSMT-Blender-Plugins/★投影TEXCOORD2.xy(近似)/★投影TEXCOORD2.xy(近似)' }
 
         ]
-      }
-      ,
-      {
+      }],
+
+      '/Tutorials/Games/GI':[{
         text: 'GI',
         items: [
           { text: '10612-4001解决方案', link: '/Tutorials/Games/GI/10612-4001解决方案/10612-4001解决方案.md' },
         ]
-      }
-    ],
+      }]
+    },
 
     footer: {
         copyright: 'By <a href="https://github.com/StarBobis">NicoMico</a>'
