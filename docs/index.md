@@ -7,7 +7,7 @@ hero:
   text: "基于3Dmigoto的模型提取与Mod制作工具"
   tagline: 革新Mod制作体验
   image:
-    src: Background.png
+    src: /background.png
     alt: 背景图测试
   actions:
     - theme: brand
