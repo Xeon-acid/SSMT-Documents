@@ -16,6 +16,7 @@ export default defineConfig({
       { text: 'SSMT文档', link: '/Tutorials/SSMT/(1)SSMT安装教程/SSMT安装教程' },
       { text: 'SSMT Blender插件文档', link: '/Tutorials/SSMT-Blender-Plugins/(1)分支集合架构/分支集合架构' },
       { text: '各游戏常见问题', link: '/Tutorials/Games/GI/10612-4001解决方案/10612-4001解决方案.md' },
+      { text: '常用工具', link: '/Tutorials/Tools/Index.md' },
     ],
 
     sidebar: {
@@ -108,9 +109,13 @@ export default defineConfig({
             { text: 'GF2人物模型删减与偏移教程', link: '/Tutorials/Games/GF2/GF2人物模型删减与偏移教程/GF2人物模型删减与偏移教程' },
           ]
         },
-
-        
-      ]
+      ],
+      '/Tutorials/Tools/':[{
+        text: 'SSMT Blender插件文档',
+        items: [
+          { text: '★投影TEXCOORD2.xy(近似)', link: '/Tutorials/SSMT-Blender-Plugins/★投影TEXCOORD2.xy(近似)/★投影TEXCOORD2.xy(近似)' },
+        ]
+      }],
     },
 
     footer: {
