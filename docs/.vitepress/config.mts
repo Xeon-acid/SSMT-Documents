@@ -114,6 +114,9 @@ export default defineConfig({
         text: '常用工具',
         items: [
           { text: 'Vertex Color Master', link: '/Tutorials/Tools/Vertex Color Master/Vertex Color Master' },
+          { text: 'Material Combiner', link: '/Tutorials/Tools/Material Combiner/Material Combiner' },
+          { text: 'Paint.net', link: '/Tutorials/Tools/Paint.net/Paint.net' },
+
         ]
       }],
     },
