@@ -5,8 +5,6 @@ SSMT的使用文档
 
 https://starbobis.github.io/SSMT-Documents/
 
-![alt text](image.png)
-
 
 # 仍在开发中
 
