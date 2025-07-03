@@ -56,11 +56,60 @@ export default defineConfig({
           ]
         },
         {
+          text: 'HI3',
+          items: [
+            { text: '崩坏三角色轮廓线修复', link: '/Tutorials/Games/HI3/崩坏三角色轮廓线修复/崩坏三角色轮廓线修复' },
+          ]
+        },
+        {
+          text: 'HSR',
+          items: [
+            { text: 'UV2是干什么的', link: '/Tutorials/Games/HSR/UV2是干什么的/UV2是干什么的' },
+            { text: '动态Mod导致角色描边抽搐', link: '/Tutorials/Games/HSR/动态Mod导致角色描边抽搐/动态Mod导致角色描边抽搐' },
+            { text: '贴图槽位乱窜问题', link: '/Tutorials/Games/HSR/贴图槽位乱窜问题/贴图槽位乱窜问题' },
+            { text: '崩铁角色轮廓线修复', link: '/Tutorials/Games/HSR/崩铁角色轮廓线修复/崩铁角色轮廓线修复' },
+            { text: '崩铁角色黄色描边修复', link: '/Tutorials/Games/HSR/崩铁角色黄色描边修复/崩铁角色黄色描边修复' },
+            { text: '部分动作导致Mod炸裂', link: '/Tutorials/Games/HSR/部分动作导致Mod炸裂/部分动作导致Mod炸裂' },
+
+          ]
+        },
+        {
+          text: 'ZZZ',
+          items: [
+            { text: 'Mod法线贴图错误问题', link: '/Tutorials/Games/ZZZ/Mod法线贴图错误问题/Mod法线贴图错误问题' },
+            { text: '上下身体分开的问题', link: '/Tutorials/Games/ZZZ/上下身体分开的问题/上下身体分开的问题' },
+            { text: '关闭动态高精度', link: '/Tutorials/Games/ZZZ/关闭动态高精度/关闭动态高精度' },
+            { text: '完美阴影和轮廓线', link: '/Tutorials/Games/ZZZ/完美阴影和轮廓线/完美阴影和轮廓线' },
+            { text: '虚假头发问题', link: '/Tutorials/Games/ZZZ/虚假头发问题/虚假头发问题' },
+
+          ]
+        },
+        {
           text: 'YYSLS',
           items: [
             { text: 'YYSLS无法注入问题', link: '/Tutorials/Games/YYSLS/YYSLS无法注入问题/YYSLS无法注入问题' },
           ]
         },
+        {
+          text: 'WWMI',
+          items: [
+            { text: '如何正确配置进程路径', link: '/Tutorials/Games/WWMI/如何正确配置进程路径/如何正确配置进程路径' },
+          ]
+        },
+        {
+          text: 'LiarsBar',
+          items: [
+            { text: '手枪模型只有一个能完整显示', link: '/Tutorials/Games/LiarsBar/手枪模型只有一个能完整显示/手枪模型只有一个能完整显示' },
+          ]
+        },
+        {
+          text: 'GF2',
+          items: [
+            { text: 'GF2人物模型删减与偏移教程', link: '/Tutorials/Games/GF2/GF2人物模型删减与偏移教程/GF2人物模型删减与偏移教程' },
+          ]
+        },
+
+        
       ]
     },
 
