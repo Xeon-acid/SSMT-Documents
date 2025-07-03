@@ -111,9 +111,9 @@ export default defineConfig({
         },
       ],
       '/Tutorials/Tools/':[{
-        text: 'SSMT Blender插件文档',
+        text: '常用工具',
         items: [
-          { text: '★投影TEXCOORD2.xy(近似)', link: '/Tutorials/SSMT-Blender-Plugins/★投影TEXCOORD2.xy(近似)/★投影TEXCOORD2.xy(近似)' },
+          { text: 'Vertex Color Master', link: '/Tutorials/Tools/Vertex Color Master/Vertex Color Master' },
         ]
       }],
     },
