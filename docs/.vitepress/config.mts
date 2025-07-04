@@ -41,14 +41,26 @@ export default defineConfig({
         ]
       }],
 
-      '/Tutorials/SSMT-Blender-Plugins/':[{
+    '/Tutorials/SSMT-Blender-Plugins/':[
+      {
         text: 'SSMT Blender插件文档',
         items: [
           { text: '(1)分支集合架构', link: '/Tutorials/SSMT-Blender-Plugins/(1)分支集合架构/分支集合架构' },
           { text: '★平滑法线存TEXCOORD1.xy', link: '/Tutorials/SSMT-Blender-Plugins/★平滑法线存TEXCOORD1.xy/★平滑法线存TEXCOORD1.xy' },
           { text: '★投影TEXCOORD2.xy(近似)', link: '/Tutorials/SSMT-Blender-Plugins/★投影TEXCOORD2.xy(近似)/★投影TEXCOORD2.xy(近似)' },
         ]
-      }],
+      },
+      {
+        text: 'Blender',
+        items: [
+          { text: 'Blender支持DDS格式贴图', link: '/Tutorials/SSMT-Blender-Plugins/Blender支持DDS格式贴图/Blender支持DDS格式贴图' },
+          { text: 'ScreenshotKeys插件', link: '/Tutorials/SSMT-Blender-Plugins/ScreenshotKeys插件/ScreenshotKeys插件' },
+          { text: '模型单面贴图问题', link: '/Tutorials/SSMT-Blender-Plugins/模型单面贴图问题/模型单面贴图问题' },
+          { text: '模型细分后权重出问题', link: '/Tutorials/SSMT-Blender-Plugins/模型细分后权重出问题/模型细分后权重出问题' },
+
+        ]
+      }
+    ],
 
       '/Tutorials/Games/':[
         {
