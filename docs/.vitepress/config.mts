@@ -129,6 +129,7 @@ export default defineConfig({
         items: [
           { text: '3Dmigoto介绍', link: '/Tutorials/3Dmigoto/3Dmigoto介绍/3Dmigoto介绍' },
           { text: '如何手动安装Mod', link: '/Tutorials/3Dmigoto/如何手动安装Mod/如何手动安装Mod' },
+          { text: '没有小键盘如何使用Hunting界面', link: '/Tutorials/3Dmigoto/没有小键盘如何使用Hunting界面/没有小键盘如何使用Hunting界面' },
 
         ]
       }],
