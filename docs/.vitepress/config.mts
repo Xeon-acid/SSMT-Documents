@@ -13,16 +13,21 @@ export default defineConfig({
     // https://vitepress.dev/reference/default-theme-config
     nav: [
       { text: '主页', link: '/' },
-      { text: 'SSMT文档', link: '/Tutorials/SSMT/(1)SSMT安装教程/SSMT安装教程' },
+      { text: 'SSMT文档', link: '/Tutorials/SSMT/SSMT介绍/SSMT介绍' },
       { text: 'SSMT Blender插件文档', link: '/Tutorials/SSMT-Blender-Plugins/(1)分支集合架构/分支集合架构' },
       { text: '各游戏常见问题', link: '/Tutorials/Games/GI/10612-4001解决方案/10612-4001解决方案.md' },
       { text: '常用工具', link: '/Tutorials/Tools/Index.md' },
+      { text: '3Dmigoto', link: '/Tutorials/3Dmigoto/3Dmigoto介绍/3Dmigoto介绍' },
+
+
+      
     ],
 
     sidebar: {
       '/Tutorials/SSMT/':[{
         text: 'SSMT文档',
         items: [
+          { text: 'SSMT介绍', link: '/Tutorials/SSMT/SSMT介绍/SSMT介绍' },
           { text: '(1)SSMT安装教程', link: '/Tutorials/SSMT/(1)SSMT安装教程/SSMT安装教程' },
           { text: '(2)SSMT Blender插件安装教程', link: '/Tutorials/SSMT/(2)SSMT Blender插件安装教程/SSMT的Blender插件安装教程' },
           { text: '(3)SSMT运行日志', link: '/Tutorials/SSMT/(3)SSMT运行日志/SSMT运行日志' },
@@ -116,6 +121,14 @@ export default defineConfig({
           { text: 'Vertex Color Master', link: '/Tutorials/Tools/Vertex Color Master/Vertex Color Master' },
           { text: 'Material Combiner', link: '/Tutorials/Tools/Material Combiner/Material Combiner' },
           { text: 'Paint.net', link: '/Tutorials/Tools/Paint.net/Paint.net' },
+
+        ]
+      }],
+      '/Tutorials/3Dmigoto/':[{
+        text: '3Dmigoto',
+        items: [
+          { text: '3Dmigoto介绍', link: '/Tutorials/3Dmigoto/3Dmigoto介绍/3Dmigoto介绍' },
+          { text: '如何手动安装Mod', link: '/Tutorials/3Dmigoto/如何手动安装Mod/如何手动安装Mod' },
 
         ]
       }],
