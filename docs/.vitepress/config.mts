@@ -58,8 +58,6 @@ export default defineConfig({
           { text: '模型单面贴图问题', link: '/Tutorials/SSMT-Blender-Plugins/模型单面贴图问题/模型单面贴图问题' },
           { text: '模型细分后权重出问题', link: '/Tutorials/SSMT-Blender-Plugins/模型细分后权重出问题/模型细分后权重出问题' },
           { text: '骨骼约束如何删除', link: '/Tutorials/SSMT-Blender-Plugins/骨骼约束如何删除/骨骼约束如何删除' },
-
-
         ]
       }
     ],
@@ -138,15 +136,25 @@ export default defineConfig({
 
         ]
       }],
-      '/Tutorials/3Dmigoto/':[{
-        text: '3Dmigoto',
-        items: [
-          { text: '3Dmigoto介绍', link: '/Tutorials/3Dmigoto/3Dmigoto介绍/3Dmigoto介绍' },
-          { text: '如何手动安装Mod', link: '/Tutorials/3Dmigoto/如何手动安装Mod/如何手动安装Mod' },
-          { text: '没有小键盘如何使用Hunting界面', link: '/Tutorials/3Dmigoto/没有小键盘如何使用Hunting界面/没有小键盘如何使用Hunting界面' },
-
-        ]
-      }],
+      '/Tutorials/3Dmigoto/':
+      [
+        {
+          text: '3Dmigoto',
+          items: 
+          [
+            { text: '3Dmigoto介绍', link: '/Tutorials/3Dmigoto/3Dmigoto介绍/3Dmigoto介绍' },
+            { text: '如何手动安装Mod', link: '/Tutorials/3Dmigoto/如何手动安装Mod/如何手动安装Mod' },
+            { text: '没有小键盘如何使用Hunting界面', link: '/Tutorials/3Dmigoto/没有小键盘如何使用Hunting界面/没有小键盘如何使用Hunting界面' },
+          ]
+        },
+        {
+          text: '使用技巧',
+          items: 
+          [
+            { text: '通过贴图找IB的Hash值', link: '/Tutorials/3Dmigoto/通过贴图找IB的Hash值/通过贴图找IB的Hash值' },
+          ]
+        }
+      ],
     },
 
     footer: {

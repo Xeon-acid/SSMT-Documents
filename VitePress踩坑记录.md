@@ -47,3 +47,8 @@
 
 目前用的是VSCode
 
+只需要在Terminal中运行
+```
+npm run docs:dev
+```
+即可在本地预览效果
