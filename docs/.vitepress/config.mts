@@ -133,6 +133,7 @@ export default defineConfig({
           { text: 'Vertex Color Master', link: '/Tutorials/Tools/Vertex Color Master/Vertex Color Master' },
           { text: 'Material Combiner', link: '/Tutorials/Tools/Material Combiner/Material Combiner' },
           { text: 'Paint.net', link: '/Tutorials/Tools/Paint.net/Paint.net' },
+          { text: 'Photoshop', link: '/Tutorials/Tools/Photoshop/Photoshop' },
 
         ]
       }],
