@@ -57,6 +57,8 @@ export default defineConfig({
           { text: 'ScreenshotKeys插件', link: '/Tutorials/SSMT-Blender-Plugins/ScreenshotKeys插件/ScreenshotKeys插件' },
           { text: '模型单面贴图问题', link: '/Tutorials/SSMT-Blender-Plugins/模型单面贴图问题/模型单面贴图问题' },
           { text: '模型细分后权重出问题', link: '/Tutorials/SSMT-Blender-Plugins/模型细分后权重出问题/模型细分后权重出问题' },
+          { text: '骨骼约束如何删除', link: '/Tutorials/SSMT-Blender-Plugins/骨骼约束如何删除/骨骼约束如何删除' },
+
 
         ]
       }
