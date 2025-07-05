@@ -38,6 +38,6 @@ Mipmap顾名思义，一般情况不需要加载，只有部分特殊情况，�
 
 部分用户反馈 NVDIA的dds插件不太好用，Ps的Intel dds插件更好用
 
-的确，PS默认保存DDS格式的贴图时，总是保存为固定的BC7_SRGB，导致我们仍然需要在Paint.net中再次转换格式。
+的确，PS默认保存DDS格式的贴图时，总是保存为固定的BC7_SRGB或BC7_UNORM，导致我们仍然需要在Paint.net中再次转换格式。
 
 https://www.intel.com/content/www/us/en/developer/articles/tool/intel-texture-works-plugin.html

@@ -18,9 +18,13 @@ export default defineConfig({
       { text: '各游戏常见问题', link: '/Tutorials/Games/GI/10612-4001解决方案/10612-4001解决方案.md' },
       { text: '常用工具', link: '/Tutorials/Tools/Index.md' },
       { text: '3Dmigoto', link: '/Tutorials/3Dmigoto/3Dmigoto介绍/3Dmigoto介绍' },
-
-
-      
+      { 
+        text: 'SSMT扩展插件', 
+         items: [
+          { text: 'SSMT-Reverse插件', link: '/Tutorials/Plugins/SSMT-Reverse/(1)SSMT-Reverse插件介绍/(1)SSMT-Reverse插件介绍' },
+          { text: 'SSMT-Protect插件', link: '/Tutorials/Plugins/SSMT-Protect/(1)SSMT-Protect插件介绍/(1)SSMT-Protect插件介绍' },
+        ]
+      },
     ],
 
     sidebar: {
@@ -153,6 +157,35 @@ export default defineConfig({
           items: 
           [
             { text: '通过贴图找IB的Hash值', link: '/Tutorials/3Dmigoto/通过贴图找IB的Hash值/通过贴图找IB的Hash值' },
+          ]
+        }
+      ],
+
+      '/Tutorials/Plugins/':
+      [
+        {
+          text: '激活插件',
+          items: 
+          [
+            { text: '密钥生成器', link: '/Tutorials/Plugins/密钥生成器/密钥生成器' },
+          ]
+        },
+        {
+          text: 'SSMT-Reverse插件',
+          items: 
+          [
+            { text: '(1)SSMT-Reverse插件介绍', link: '/Tutorials/Plugins/SSMT-Reverse/(1)SSMT-Reverse插件介绍/(1)SSMT-Reverse插件介绍' },
+          ]
+        },
+        {
+          text: 'SSMT-Protect插件',
+          items: 
+          [
+            { text: '(1)SSMT-Protect插件介绍', link: '/Tutorials/Plugins/SSMT-Protect/(1)SSMT-Protect插件介绍/(1)SSMT-Protect插件介绍' },
+            { text: '(2)安装方法', link: '/Tutorials/Plugins/SSMT-Protect/(2)安装方法/(2)安装方法' },
+            { text: '(3)加密功能说明', link: '/Tutorials/Plugins/SSMT-Protect/(3)加密功能说明/(3)加密功能说明' },
+            { text: '(4)Mod锁机器码功能说明', link: '/Tutorials/Plugins/SSMT-Protect/(4)Mod锁机器码功能说明/(4)Mod锁机器码功能说明' },
+
           ]
         }
       ],
