@@ -28,7 +28,6 @@ export default defineConfig({
           { text: 'GF2', link: '/Tutorials/Games/GF2/GF2人物模型删减与偏移教程/GF2人物模型删减与偏移教程' },
           { text: 'YYSLS', link: '/Tutorials/Games/YYSLS/YYSLS无法注入问题/YYSLS无法注入问题' },
           { text: 'LiarsBar', link: '/Tutorials/Games/LiarsBar/手枪模型只有一个能完整显示/手枪模型只有一个能完整显示' },
-
         ] 
       },
       { 
@@ -190,6 +189,19 @@ export default defineConfig({
           items: 
           [
             { text: '(1)SSMT-Reverse插件介绍', link: '/Tutorials/Plugins/SSMT-Reverse/(1)SSMT-Reverse插件介绍/(1)SSMT-Reverse插件介绍' },
+            { text: '(2)安装插件', link: '/Tutorials/Plugins/SSMT-Reverse/(2)安装插件/(2)安装插件' },
+            { text: '(3)逆向出来的模型如何导入Blender', link: '/Tutorials/Plugins/SSMT-Reverse/(3)逆向出来的模型如何导入Blender/(3)逆向出来的模型如何导入Blender' },
+            { text: '(4)逆向出来的Mod模型如何上贴图', link: '/Tutorials/Plugins/SSMT-Reverse/(4)逆向出来的Mod模型如何上贴图/(4)逆向出来的Mod模型如何上贴图' },
+            { text: '(5)批量转换贴图格式', link: '/Tutorials/Plugins/SSMT-Reverse/(5)批量转换贴图格式/(5)批量转换贴图格式' },
+            { text: '(6)手动逆向功能', link: '/Tutorials/Plugins/SSMT-Reverse/(6)手动逆向功能/(6)手动逆向功能' },
+            { text: '(7)更新日志', link: '/Tutorials/Plugins/SSMT-Reverse/(7)更新日志/(7)更新日志' },
+            { text: '常见问题', link: '/Tutorials/Plugins/SSMT-Reverse/常见问题/常见问题' },
+            { text: '☆远距离和近距离放一起的NPC Mod无法一键逆向', link: '/Tutorials/Plugins/SSMT-Reverse/☆远距离和近距离放一起的NPC Mod无法一键逆向/☆远距离和近距离放一起的NPC Mod无法一键逆向' },
+            { text: 'ResourceVBList.size()为4的Mod', link: '/Tutorials/Plugins/SSMT-Reverse/ResourceVBList.size()为4的Mod/ResourceVBList.size()为4的Mod' },
+            { text: '☆跨IB渲染的Mod逆向', link: '/Tutorials/Plugins/SSMT-Reverse/☆跨IB渲染的Mod逆向/☆跨IB渲染的Mod逆向' },
+            { text: '☆原神面部Mod逆向方法', link: '/Tutorials/Plugins/SSMT-Reverse/☆原神面部Mod逆向方法/☆原神面部Mod逆向方法' },
+            { text: 'IndexBuffer和CategoryBuffer膨胀混淆技术', link: '/Tutorials/Plugins/SSMT-Reverse/IndexBuffer和CategoryBuffer膨胀混淆技术/IndexBuffer和CategoryBuffer膨胀混淆技术' },
+            { text: '☆为什么鸣潮Mod逆向出来有两个数据类型', link: '/Tutorials/Plugins/SSMT-Reverse/☆为什么鸣潮Mod逆向出来有两个数据类型/☆为什么鸣潮Mod逆向出来有两个数据类型' },
           ]
         },
         {
