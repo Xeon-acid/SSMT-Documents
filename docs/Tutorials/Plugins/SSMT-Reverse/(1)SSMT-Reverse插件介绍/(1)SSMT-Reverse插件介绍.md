@@ -1,16 +1,12 @@
 # SSMT-Reverse插件
 
-SSMT-Reverse插件，其实就是我们的3Dmigoto-Sword-Lv6，因为界面整合到了SSMT中，所以现在改名为SSMT-Reverse插件了。
+SSMT-Reverse插件，其实就是我们的3Dmigoto-Sword-Lv5，因为界面整合到了SSMT中，所以现在改名为SSMT-Reverse插件了。
 
-3Dmigoto-Sword-Lv6是一款专业的用于将3Dmigoto Mod里的模型提取出来的工具，它的工作原理是全自动分析ini文件中的语法，并构建抽象的逻辑分析链进行语法分析，从ini内容中识别出Buffer文件可能组合成的模型文件。
+3Dmigoto-Sword-Lv5是一款专业的用于将3Dmigoto Mod里的模型提取出来的工具，它的工作原理是全自动分析ini文件中的语法，并构建抽象的逻辑分析链进行语法分析，从ini内容中识别出Buffer文件可能组合成的模型文件。
 
 可以在爱发电中赞助获取：
 
 https://afdian.com/item/ec74ee782b2f11efb5a052540025c377
-
-3Dmigoto-Sword-Lv6预览图
-
-![alt text](image.png)
 
 作为SSMT插件安装预览图
 
