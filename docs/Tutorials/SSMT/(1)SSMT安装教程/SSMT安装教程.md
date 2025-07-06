@@ -1,13 +1,25 @@
 # SSMT(Super Simple Migoto Tools)
-- 下载后直接解压即可使用。
 
-![alt text](image.png)
+首先进入SSMT的Github，随后点击Releases
 
+![alt text](image-19.png)
+
+然后出现的里面，有如下文件：
+
+![alt text](image-20.png)
+
+这里的SSMT-win-Portable.zip是解压即用的包。
+
+这里的SSMT-win-Setup.exe是安装包，运行后全自动安装到C盘下。
+
+不管是解压即用的包，还是安装包，都支持自动更新功能。
+
+# 注意
 - SSMT自带的3Dmigoto在SSMT-Package的3Dmigoto目录下。
 - SSMT和SSMT插件的版本是对应配套的，如果发现不兼容，请全部更新到最新版。
 - 请勿将SSMT-Package放到U盘或外接可插拔USB接口的硬盘里，否则会出现Dump内容全是软链接且失效的问题（放到U盘中由于权限不足，即使不开启Symlink特性也会Dump下来一堆链接文件，且无法被SSMT识别）。
 
-# (0) 第一次安装
+# 安装SSMT-Package
 https://github.com/StarBobis/SSMT-Package
 
 ![alt text](image-1.png)
@@ -16,49 +28,33 @@ https://github.com/StarBobis/SSMT-Package
 
 ![alt text](image-2.png)
 
-群公告或群文件下载解压并打开SSMT.exe:
+群公告或群文件下载解压并打开SSMT:
 
-![alt text](image-3.png)
+![alt text](image-21.png)
 
-点击设置=>首选项页面：
+在设置页面中选择SSMT-Package路径为这个下载的文件夹路径（确保路径无中文且不是U盘或外接可插拔USB磁盘）：
 
-![alt text](image-18.png)
-
-在首选项页面中选择SSMT总工作文件夹路径为这个下载的文件夹路径（确保路径无中文且不是U盘或外接可插拔USB磁盘）：
-
-![alt text](image-4.png)
+![alt text](image-23.png)
 
 设置完成后，接下来就可以正常使用SSMT了
 
 # (1) 选择游戏
-点击右上角下拉菜单可以选择当前工作的游戏：
+主页图标可以选择当前工作的游戏：
 
-![alt text](image-5.png)
+![alt text](image-24.png)
+
 
 # (2) 进行3Dmigoto配置
-启动SSMT后，大概是这个样子：
 
-![alt text](image-6.png)
+需要先进行3Dmigoto配置，选择3Dmigoto文件夹，因为SSMT是依赖于3Dmigoto运行的，这里你可以选一个这个游戏对应的3Dmigoto，比如我这里直接用桌面的：
 
-此时需要先进行3Dmigoto配置
+![alt text](image-25.png)
 
-![alt text](image-7.png)
+SSMT自带的各个游戏的3Dmigoto在SSMT-Package的Games目录下，没有特殊目的尽量不要使用其它人提供的3Dmigoto否则可能不适配，米游的3Dmigoto可以直接用XXMI下面的：
 
-选择3Dmigoto文件夹，因为SSMT是依赖于3Dmigoto运行的，这里你可以选一个这个游戏对应的3Dmigoto，比如我这里直接用桌面的：
-
-![alt text](image-8.png)
-
-SSMT自带的各个游戏的3Dmigoto在SSMT-Package的Games目录下，尽量不要使用其它人提供的3Dmigoto否则可能不适配：
-
-![alt text](image-9.png)
 
 选择后，3Dmigoto路径，进程路径和启动路径，以及启动参数会自动从你选择的3Dmigoto文件夹中的d3dx.ini中识别并填写（如果是空的，请看后续如何填写的教程）。
 
-![alt text](image-10.png)
-
-随后就可以关闭此窗口，去主页界面开始使用了。
-
-![alt text](image-11.png)
 
 # (3) 各参数填写
 这里的进程路径，对应d3dx.ini中的target = 
@@ -69,13 +65,12 @@ SSMT自带的各个游戏的3Dmigoto在SSMT-Package的Games目录下，尽量不
 一般是目标游戏的主程序的路径
 一般米游的进程路径和启动路径填写相同的即可，米游不需要填写启动参数，除非你有自定义的需求，那么请自行填写。
 
-![alt text](image-12.png)
+
 
 ## 启动路径
 一般为游戏的启动器或者进程路径。
 米游比较特殊，它允许不经过官方启动器直接调起进程启动，但是其它游戏不一定允许，所以这里的启动路径，一般我们填写的是能够调起这个游戏的游戏的启动器路径。
 
-![alt text](image-13.png)
 
 ## 启动参数
 虽然有些游戏不允许直接启动它的进程路径，但是当你附加了启动参数之后，是可以直接启动进程路径的，比如Naraka：

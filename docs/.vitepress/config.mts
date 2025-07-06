@@ -40,7 +40,8 @@ export default defineConfig({
     ],
 
     sidebar: {
-      '/Tutorials/SSMT/':[{
+      '/Tutorials/SSMT/':[
+      {
         text: 'SSMT文档',
         items: [
           { text: 'SSMT介绍', link: '/Tutorials/SSMT/SSMT介绍/SSMT介绍' },
@@ -55,7 +56,9 @@ export default defineConfig({
           { text: '(9)贴图格式转换', link: '/Tutorials/SSMT/(9)贴图格式转换/贴图格式转换' },
           { text: '(10)开关红字报错显示', link: '/Tutorials/SSMT/(10)开关红字报错显示/开关红字报错显示' },
         ]
-      }],
+      }
+    
+    ],
 
     '/Tutorials/SSMT-Blender-Plugins/':[
       {

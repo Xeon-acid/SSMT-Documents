@@ -16,3 +16,17 @@ https://www.bilibili.com/video/BV1KXK4zWEQF?spm_id_from=333.788.videopod.section
 
 https://www.bilibili.com/video/BV11RTHz6EaT/?spm_id_from=333.1387.homepage.video_card.click&vd_source=fae63b04189e6ca0a2895c5aba2325c5
 
+
+# (1) 启动游戏并注入3Dmigoto
+
+参数全部填写正确后，点击一键启动，即可自动启动3Dmigoto Loader.exe并注入3Dmigoto到游戏中
+
+![alt text](image.png)
+
+# (2) 提取模型
+
+进入工作台界面
+
+![alt text](image-1.png)
+
+输入DrawIB后，点击提取模型
