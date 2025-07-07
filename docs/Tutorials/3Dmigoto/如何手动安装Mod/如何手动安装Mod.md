@@ -85,6 +85,6 @@ require_admin = true
 
 ![alt text](image-2.png)
 
-如上图，原始 3Dmigoto 一般初始携带一个 Mods 文件夹，同时默认配置 `include = Mods`。
+如上图，原始 3Dmigoto 一般初始携带一个 Mods 文件夹，同时默认配置了 `include = Mods`。
 
 所以按照约定俗成的使用方法，我们会把 Mod 文件放到 Mods 文件夹中。
