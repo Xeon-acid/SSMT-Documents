@@ -1,18 +1,20 @@
 # 解压安装3Dmigoto
-在拿到3Dmigoto之后，我们解压到桌面：
+
+获取一份 `3DMigoto`，解压到任选路径，下面以解压至桌面为例：
 
 ![alt text](image.png)
 
-
 # 手动配置路径
-打开d3dx.ini，找到target = 然后这里的路径改为你要注入的目标程序的路径
+
+打开 `d3dx.ini`，找到 `target = `，将对应的路径改为需要注入的目标程序路径：
 ![alt text](image-3.png)
 
-然后保存，打开3Dmigoto Loader.exe即可使用
+保存该文件，重新打开 `3Dmigoto Loader.exe` 即可使用。
 ![alt text](image-4.png)
 
-这里手动可配置的参数有很多，如下是原始描述：
-```
+此处另外存在若干可供配置的参数，如下为原始叙述：
+
+```ini
 ;------------------------------------------------------------------------------------------------------
 ; Settings used by the external 3DMigoto Loader
 ;------------------------------------------------------------------------------------------------------
@@ -47,36 +49,42 @@ require_admin = true
 ; executables of the same name when the first process we see may not be the
 ; actual one we need. Set to -1 to disable automatic shut down.
 ;delay = 20
-
 ```
 
-参数通俗解释：
+这些参数的部分通俗解释：
 
-- target = 填写目标游戏的进程路径
+| 参数       | 含义 |
+| ---------- | ---- |
+| `target`          |   目标需注入游戏的进程路径    |
+| `module`          |   一般填写 `d3d11.dll` 即可   |
+| `require_admin`   |   一般填写 `true` 即可    |
+| `launch`          |   `3DMigoto Loader.exe` 启动后将自动唤起的程序路径    |
+| `delay`           |   `3DMigoto Loader.exe` 运行后的自动关闭延迟   |
+
+<!-- - target = 填写目标游戏的进程路径
 - module = 一般填写d3d11.dll
 - require_admin 一般填写true
 - launch = 填写3Dmigoto Loader.exe运行后自动调起的程序路径
-- delay = 填写3Dmigoto Loader.exe在运行后，经过多少秒自动退出
+- delay = 填写3Dmigoto Loader.exe在运行后，经过多少秒自动退出 -->
 
-虽然原始3Dmigoto规定了这些用法，但现代的基于3Dmigoto的Mod加载器对这些参数进行了魔改，删掉了无用参数delay,module,require_admin，增加了部分参数例如launch_args。
+尽管原初的 3DMigoto 规定了这些参数，但现代的基于 3DMigoto 的 Mod 加载器，包括 SSMT 和 [XXMI](https://github.com/SpectrumQT/XXMI-Launcher)，部分魔改了这些参数，删掉了无用参数 `delay`，`module`，`require_admin`，如，增加了部分参数例如 `launch_args`，[参见此处](..\..\SSMT\%281%29SSMT安装教程\SSMT安装教程.md#-%283%29-各参数填写)。
 
 所以这里仅供参考。
 
 # 手动安装Mod到3Dmigoto
 
-把Mod文件或Mod文件夹放到Mods文件夹中即可：
+把 Mod 文件或 Mod 文件夹**而非 `.zip` 或 `.rar` 压缩包**放到 `Mods` 文件夹中即：
 
 ![alt text](image-1.png)
 
-随后启动3Dmigoto并启动游戏即可。
+随后启动 3Dmigoto 并启动游戏即可。
 
 # 为什么是安装到Mods文件夹中？
 
-3Dmigoto的Mod安装到什么地方，是由d3dx.ini中的include参数控制的：
+3Dmigoto 的 Mod 安装到什么地方，由 `d3dx.ini` 中的 `include` 参数控制：
 
 ![alt text](image-2.png)
 
-如图，原始的3Dmigoto一般会带有Mods文件夹，以及已经配置好的默认的include = Mods的配置
+如上图，原始 3Dmigoto 一般初始携带一个 Mods 文件夹，同时默认配置了 `include = Mods`。
 
-所以按照约定俗成的使用方法，我们会把Mod文件放到Mods文件夹中
-
+所以按照约定俗成的使用方法，我们会把 Mod 文件放到 Mods 文件夹中。
