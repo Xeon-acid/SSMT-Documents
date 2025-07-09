@@ -3,13 +3,17 @@
 ## 初始化步骤
 把项目克隆到本地，或者直接创建新项目。
 
-首先安装一下：
+需要 npm 工具，自行下载安装。
+
+首先安装一下 VitePress：
 
 `npm add -D vitepress`
 
-随后初始化一下：
+<!-- 随后初始化一下：
 
-`npx vitepress init`
+`npx vitepress init` -->
+
+`cd` 到项目的 `docs` 下，我们的 `.vitepress/` 配置目录在此处。
 
 启动预览：
 
