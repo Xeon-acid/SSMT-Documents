@@ -7,3 +7,6 @@
 【DBMT-Protect使用教程】 https://www.bilibili.com/video/BV1JMcEe5EAE/?share_source=copy_web&vd_source=1cf559d8ced69a4acbba3d3b3decb6a9
 
 后面有空了我会重新录制视频并把步骤写在文档中。
+
+# 给用户发密钥生成器用于生成Key文件
+
