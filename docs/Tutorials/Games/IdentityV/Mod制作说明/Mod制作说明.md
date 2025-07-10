@@ -32,7 +32,7 @@ VSCheck就是下面这个功能：
 ![alt text](image.png)
 
 
-在对应Mod无法生效的场景F8 dump之后，把你的模型的DrawIB填写在这里，然后点击生成VSCheck，即可让Mod生效。
+在对应Mod无法生效的场景F8 dump（Dump时务必关掉Mod）之后，把你的模型的DrawIB填写在这里，然后点击生成VSCheck，即可让Mod生效。
 
 每个无法生效的场景都需要这么做。
 
