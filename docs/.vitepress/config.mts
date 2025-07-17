@@ -67,6 +67,8 @@ export default defineConfig({
         text: 'SSMT Blender插件文档',
         items: [
           { text: '(1)分支集合架构', link: '/Tutorials/SSMT-Blender-Plugins/(1)分支集合架构/分支集合架构' },
+          { text: '新分支集合架构', link: '/Tutorials/SSMT-Blender-Plugins/新分支集合架构/新分支集合架构' },
+          
           { text: '★平滑法线存TEXCOORD1.xy', link: '/Tutorials/SSMT-Blender-Plugins/★平滑法线存TEXCOORD1.xy/★平滑法线存TEXCOORD1.xy' },
           { text: '★投影TEXCOORD2.xy(近似)', link: '/Tutorials/SSMT-Blender-Plugins/★投影TEXCOORD2.xy(近似)/★投影TEXCOORD2.xy(近似)' },
           { text: 'Mod属性面板', link: '/Tutorials/SSMT-Blender-Plugins/Mod属性面板/Mod属性面板' },
