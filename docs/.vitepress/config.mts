@@ -102,6 +102,7 @@ export default defineConfig({
           text: 'HI3',
           items: [
             { text: '崩坏三角色轮廓线修复', link: '/Tutorials/Games/HI3/崩坏三角色轮廓线修复/崩坏三角色轮廓线修复' },
+            { text: '第二套UVMap的用处', link: '/Tutorials/Games/HI3/第二套UVMap的用处/第二套UVMap的用处' },
           ]
         },
         {
