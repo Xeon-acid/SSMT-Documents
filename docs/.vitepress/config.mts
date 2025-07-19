@@ -57,6 +57,8 @@ export default defineConfig({
           { text: '(8)Symlink特性', link: '/Tutorials/SSMT/(8)Symlink特性/Symlink特性' },
           { text: '(9)贴图格式转换', link: '/Tutorials/SSMT/(9)贴图格式转换/贴图格式转换' },
           { text: '(10)开关红字报错显示', link: '/Tutorials/SSMT/(10)开关红字报错显示/开关红字报错显示' },
+          { text: '检查加载器版本更新', link: '/Tutorials/SSMT/检查加载器版本更新/检查加载器版本更新' },
+          
         ]
       }
     
