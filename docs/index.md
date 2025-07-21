@@ -18,7 +18,7 @@ hero:
       link: https://github.com/StarBobis/SSMT-Package
     - theme: alt
       text: SSMT的Blender插件下载地址
-      link: https://github.com/StarBobis/SSMT-BlenderPlugin
+      link: https://github.com/StarBobis/TheHerta
 
 
 features:
