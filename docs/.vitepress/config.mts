@@ -175,7 +175,8 @@ export default defineConfig({
           { text: 'Material Combiner', link: '/Tutorials/Tools/Material Combiner/Material Combiner' },
           { text: 'Paint.net', link: '/Tutorials/Tools/Paint.net/Paint.net' },
           { text: 'Photoshop', link: '/Tutorials/Tools/Photoshop/Photoshop' },
-
+          { text: 'Handy Weight Edit', link: '/Tutorials/Tools/Handy Weight Edit/Handy Weight Edit' },
+          { text: 'Fluid Painter', link: '/Tutorials/Tools/Fluid Painter NSFW/Fluid Painter' },
         ]
       }],
       '/Tutorials/3Dmigoto/':
