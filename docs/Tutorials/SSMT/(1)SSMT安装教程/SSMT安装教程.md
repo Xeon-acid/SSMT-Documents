@@ -48,6 +48,12 @@ SSMT 分为两部分，SSMT 本体与 SSMT 工作目录，即后面要说到的 
 
 ![alt text](image-21.png) -->
 
+#### C. 通过 SSMT 自动更新
+
+如你所见，目前的 SSMT 已搭载 SSMT-Package 自动更新功能：
+![alt text](image-26.png)
+能够省心地自动安装/更新 Package，而不必反复挪动自己的工作空间、Mod 等内容。
+
 ### 配置 SSMT-Package
 
 打开 SSMT，在设置界面选择 SSMT-Package 的根目录：
@@ -155,3 +161,11 @@ D:\ZenlessZoneZero Game\ZenlessZoneZero.exe
 如果游戏的进程能够在不附加任何启动参数的情况下，被第三方程序启动，那么此时进程路径和启动路径就可以填一样的，就可以点击 启动3Dmigoto Loader.exe后自动启动游戏了。
 
 否则则需要特定启动参数，可以用ProcessHacker自行查看并添加（看不懂说明你用不到这个特性，无需考虑这个）。 -->
+
+# 更新背景图片
+
+能够自动更新米游的 SSMT 主页北京贴图，方式见 SSMT 主页。
+
+# 更新加载器
+
+部分 Mod 加载器，如 GIMI、SRMI、ZZMI、WWMI，更新频率过高，不适合作为 Package 的一部分同步更新，可以单独更新这部分加载器，方式见 SSMT 主页。
