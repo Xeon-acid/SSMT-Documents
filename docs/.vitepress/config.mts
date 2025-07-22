@@ -59,7 +59,7 @@ export default defineConfig({
           { text: '(10)开关红字报错显示', link: '/Tutorials/SSMT/(10)开关红字报错显示/开关红字报错显示' },
           { text: '检查加载器版本更新', link: '/Tutorials/SSMT/检查加载器版本更新/检查加载器版本更新' },
           { text: '背景图设置方法', link: '/Tutorials/SSMT/背景图设置方法/背景图设置方法' },  
-
+          { text: '同时使用 d3dx 与 SSMT', link: '/Tutorials/SSMT/同时使用 d3dx 与 SSMT/同时使用 d3dx 与 SSMT' },
 
           
         ]
