@@ -1,5 +1,10 @@
 SSMT 分为两部分，SSMT 本体与 SSMT 工作目录，即后面要说到的 SSMT-Package。SSMT 本体包含 GUI 和绝大多数运行逻辑，而 SSMT-Package 存储了本体依赖的所有实际工作内容，包括游戏配置、3Dmigoto、工作空间等，后者经常更新，如新的数据类型或新的贴图配置等。
 
+# 已转为付费工具
+
+目前SSMT只可以通过爱发电赞助获取，下方内容仅供参考，一切以内部群为准。
+
+
 # SSMT(Super Simple Migoto Tools) 本体
 
 浏览器进入 SSMT 的 [GitHub 仓库](https://github.com/starbobis/ssmt)，点击进入 Release 界面：
