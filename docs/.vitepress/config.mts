@@ -60,6 +60,8 @@ export default defineConfig({
           { text: '检查加载器版本更新', link: '/Tutorials/SSMT/检查加载器版本更新/检查加载器版本更新' },
           { text: '背景图设置方法', link: '/Tutorials/SSMT/背景图设置方法/背景图设置方法' },  
           { text: '同时使用 d3dx 与 SSMT', link: '/Tutorials/SSMT/同时使用 d3dx 与 SSMT/同时使用 d3dx 与 SSMT' },
+          { text: '其它游戏使用SSMT作为启动器', link: '/Tutorials/SSMT/其它游戏使用SSMT作为启动器/其它游戏使用SSMT作为启动器' },  
+          
 
           
         ]
