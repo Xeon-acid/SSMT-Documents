@@ -1,7 +1,9 @@
 # 一句话总结
+
 ```bash
-# 仅 cmd 可用，PowerShell 不可用。
-mklink /j "X:\path\to\d3dx\home\<game>\work\Mods\SSMT_Mods" "X:\path\to\SSMT-package\3dmigoto\<game>\mods"
+# Only cmd. Unworkable in PowerShell.
+# ...\d3dxSkinManager is not essential.
+mklink /j "X:\path\to\SSMT-Package\3dmigoto\<game>\Mods\d3dxSkinManager" "X:\path\to\d3dx\home\<game>\work\Mods"
 ```
 
 # 小白看这里
@@ -35,18 +37,22 @@ mklink /j "X:\path\to\d3dx\home\<game>\work\Mods\SSMT_Mods" "X:\path\to\SSMT-pac
 得到两处路径字符串，我们在 cmd 中输入如下文本：
 
 ```bash
-mklink /j "X:\path\to\d3dx\home\<game>\work\Mods\SSMT_Mods" "X:\path\to\SSMT-package\3dmigoto\<game>\mods" 
+mklink /j "X:\path\to\SSMT-Package\3dmigoto\<game>\Mods\d3dxSkinManager" "X:\path\to\d3dx\home\<game>\work\Mods"
 ```
 
 **在我自己的电脑上**，我应该输入的是：
 
 ```bash
-mklink /j "C:\Users\angel\Desktop\d3dx\home\用户名称\work\Mods\SSMT_Mods" "C:\Users\angel\AppData\Local\SSMT\ssmt-package\3Dmigoto\GI\Mods"
+mklink /j "C:\Users\angel\AppData\Local\SSMT\ssmt-package\3Dmigoto\GI\Mods\d3dxSkinManager" "C:\Users\angel\Desktop\d3dx\home\用户名称\work\Mods" 
 ```
 
+然后回车即可。这样，我们将会建立一个软链接，让 SSMT 能够加载由 d3dx 生成的 Mod 工作目录。
 
+注意，这里我们将 d3dx 的工作目录链接到 SSMT Mods 目录的一个子目录 `Mods\d3dxSkinManager`，这并不必须，主要是考虑到可能会有其他来源的 Mod 需要一并加载而不由 d3dx 管理。如果并无这种需求，也可以**在备份必要内容后**删去 SSMT 下的这个 Mods 路径，直接把 d3dx 链接到这里的 Mods：
 
-然后回车即可。这样，我们将会建立一个软链接，让 d3dx 能够直接管理 ssmt 中的 mod。
+```bash
+mklink /j "C:\Users\angel\AppData\Local\SSMT\ssmt-package\3Dmigoto\GI\Mods" "C:\Users\angel\Desktop\d3dx\home\用户名称\work\Mods" 
+```
 
 ## 还是不会怎么办？
 
