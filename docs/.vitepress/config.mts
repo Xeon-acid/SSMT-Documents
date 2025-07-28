@@ -61,6 +61,7 @@ export default defineConfig({
           { text: '背景图设置方法', link: '/Tutorials/SSMT/背景图设置方法/背景图设置方法' },  
           { text: '同时使用 d3dx 与 SSMT', link: '/Tutorials/SSMT/同时使用 d3dx 与 SSMT/同时使用 d3dx 与 SSMT' },
           { text: '其它游戏使用SSMT作为启动器', link: '/Tutorials/SSMT/其它游戏使用SSMT作为启动器/其它游戏使用SSMT作为启动器' },  
+          { text: '无法打开SSMT', link: '/Tutorials/SSMT/无法打开SSMT/无法打开SSMT' },  
           
 
           
