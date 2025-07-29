@@ -180,6 +180,7 @@ export default defineConfig({
           { text: 'Photoshop', link: '/Tutorials/Tools/Photoshop/Photoshop' },
           { text: 'Handy Weight Edit', link: '/Tutorials/Tools/Handy Weight Edit/Handy Weight Edit' },
           { text: 'Fluid Painter', link: '/Tutorials/Tools/Fluid Painter NSFW/Fluid Painter' },
+          { text: 'F2 Addon', link: '/Tutorials/Tools/F2 Addon/F2 Addon' },
         ]
       }],
       '/Tutorials/3Dmigoto/':
