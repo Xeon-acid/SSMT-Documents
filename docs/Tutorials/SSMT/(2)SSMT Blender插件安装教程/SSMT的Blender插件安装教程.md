@@ -1,8 +1,5 @@
 SSMT 不严格要求 Blender 版本，最低支持 [Blender 3.6 LTS](https://www.blender.org/download/lts/3-6/#versions)，推荐使用 [Blender 4.2 LTS](https://www.blender.org/download/lts/4-2/#versions) 或更新的版本。
 
-# 已转为付费工具
-
-目前SSMT只可以通过爱发电赞助获取，下方内容仅供参考，一切以内部群为准。
 
 # SSMT 的 Blender 插件安装教程
 
