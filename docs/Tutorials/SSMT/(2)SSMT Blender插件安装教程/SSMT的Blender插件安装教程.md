@@ -3,13 +3,13 @@ SSMT 不严格要求 Blender 版本，最低支持 [Blender 3.6 LTS](https://www
 
 # SSMT 的 Blender 插件安装教程
 
-前往 [GitHub 仓库](https://github.com/StarBobis/SSMT-BlenderPlugin)，仿照 SSMT 安装教程，下载 Release 中的最新插件版本到任选位置：
+前往 [GitHub 仓库](https://github.com/StarBobis/TheHerta)，仿照 SSMT 安装教程，下载 Release 中的最新插件版本到任选位置：
 
 ![1752128274140](image/SSMT的Blender插件安装教程/1752128274140.png)
 
-下面将分别以采用简体中文界面的 Blender 4.2.11 和 3.6.23 为例示范。
+下面将分别以采用简体中文界面的 Blender 4.2.9 和 3.6.23 为例示范。
 
-## Blender 4.2.11
+## Blender 4.2.9
 
 1. `编辑` → `偏好设置`：
 
@@ -19,11 +19,11 @@ SSMT 不严格要求 Blender 版本，最低支持 [Blender 3.6 LTS](https://www
 
 ![1752129089658](image/SSMT的Blender插件安装教程/1752129089658.png)
 
-3. 弹出菜单，类似文件资源管理器，选择下载好的 `SSMTVxxx.zip`，然后点击 `从磁盘安装` 确认：
+3. 弹出菜单，类似文件资源管理器，选择下载好的 `TheHertaVxxx.zip`，然后点击 `从磁盘安装` 确认：
 
 ![1752129321935](image/SSMT的Blender插件安装教程/1752129321935.png)
 
-4. 此时安装成功，关闭偏好设置窗口，可以按 `n` 打开侧栏，能够看到 `SSMT` 项：
+4. 此时安装成功，关闭偏好设置窗口，可以按 `n` 打开侧栏，能够看到 `TheHerta` 项：
 
 ![1752129480325](image/SSMT的Blender插件安装教程/1752129480325.png)
 
@@ -45,7 +45,7 @@ SSMT 不严格要求 Blender 版本，最低支持 [Blender 3.6 LTS](https://www
 
 # SSMT 插件更新
 
-在侧栏打开 SSMT 工作菜单，点击 `Check now for addon_updater_herta_herta update`，等待片刻：
+在侧栏打开 TheHerta 工作菜单，点击 `检查 ssmt_blender_plugin 更新`，等待片刻：
 
 ![1752130778696](image/SSMT的Blender插件安装教程/1752130778696.png)
 ![1752130805506](image/SSMT的Blender插件安装教程/1752130805506.png)
