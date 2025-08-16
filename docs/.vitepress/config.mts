@@ -164,12 +164,12 @@ export default defineConfig({
           ]
         },
 
-        // {
-        //   text: 'IdentityV',
-        //   items: [
-        //     { text: 'Mod制作说明', link: '/Tutorials/Games/IdentityV/Mod制作说明/Mod制作说明' },
-        //   ]
-        // },
+        {
+          text: 'IdentityV',
+          items: [
+            { text: 'Mod制作说明', link: '/Tutorials/Games/IdentityV/Mod制作说明/Mod制作说明' },
+          ]
+        },
       ],
       '/Tutorials/Tools/':[{
         text: '常用工具',
