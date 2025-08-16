@@ -6,6 +6,18 @@
 
 在此特别鸣谢，同时也感谢所有参与测试的小伙伴们。
 
+# 执行逻辑设置
+
+Neox2引擎，游戏名称设置为IdentityV，执行逻辑设置为CTXMC
+
+![alt text](image-3.png)
+
+Neox3引擎，游戏名称设置为IdentityV2，执行逻辑设置为IdentityV2
+
+![alt text](image-4.png)
+
+最低需要SSMT V1.8.9版本，SSMT-Package V1.1.6版本，TheHerta V1.9.6版本，尽可能全部使用最新版。
+
 # Mod被封杀问题
 
 之前25年5月份添加了第五人格的Mod制作支持之后，国内掀起了一股做Mod二创视频的热潮，
