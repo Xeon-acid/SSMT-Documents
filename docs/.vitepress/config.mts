@@ -28,7 +28,7 @@ export default defineConfig({
           { text: 'GF2', link: '/Tutorials/Games/GF2/GF2人物模型删减与偏移教程/GF2人物模型删减与偏移教程' },
           { text: 'YYSLS', link: '/Tutorials/Games/YYSLS/YYSLS无法注入问题/YYSLS无法注入问题' },
           { text: 'LiarsBar', link: '/Tutorials/Games/LiarsBar/手枪模型只有一个能完整显示/手枪模型只有一个能完整显示' },
-          { text: 'IdentityV', link: '/Tutorials/Games/IdentityV/Mod制作说明/Mod制作说明' },
+          // { text: 'IdentityV', link: '/Tutorials/Games/IdentityV/Mod制作说明/Mod制作说明' },
 
         ] 
       },
@@ -163,12 +163,12 @@ export default defineConfig({
           ]
         },
 
-        {
-          text: 'IdentityV',
-          items: [
-            { text: 'Mod制作说明', link: '/Tutorials/Games/IdentityV/Mod制作说明/Mod制作说明' },
-          ]
-        },
+        // {
+        //   text: 'IdentityV',
+        //   items: [
+        //     { text: 'Mod制作说明', link: '/Tutorials/Games/IdentityV/Mod制作说明/Mod制作说明' },
+        //   ]
+        // },
       ],
       '/Tutorials/Tools/':[{
         text: '常用工具',
