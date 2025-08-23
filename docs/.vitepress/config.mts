@@ -134,6 +134,7 @@ export default defineConfig({
             { text: '关闭动态高精度', link: '/Tutorials/Games/ZZZ/关闭动态高精度/关闭动态高精度' },
             { text: '完美阴影和轮廓线', link: '/Tutorials/Games/ZZZ/完美阴影和轮廓线/完美阴影和轮廓线' },
             { text: '虚假头发问题', link: '/Tutorials/Games/ZZZ/虚假头发问题/虚假头发问题' },
+            { text: '爱丽丝的剑替换后消失', link: '/Tutorials/Games/ZZZ/爱丽丝的剑替换后消失/爱丽丝的剑替换后消失' },
 
           ]
         },
