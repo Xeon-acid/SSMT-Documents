@@ -194,6 +194,9 @@ export default defineConfig({
             { text: '通过贴图找IB的Hash值', link: '/Tutorials/3Dmigoto/通过贴图找IB的Hash值/通过贴图找IB的Hash值' },
             { text: '常用链接', link: '/Tutorials/3Dmigoto/常用链接/常用链接' },
             { text: '跨IB渲染教程', link: '/Tutorials/3Dmigoto/跨IB渲染教程/跨IB渲染教程' },
+            { text: '3Dmigoto在手游上使用', link: '/Tutorials/3Dmigoto/3Dmigoto在手游上使用/3Dmigoto在手游上使用' },
+
+            
             
           ]
         },
