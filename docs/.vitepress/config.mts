@@ -63,6 +63,7 @@ export default defineConfig({
           { text: '其它游戏使用SSMT作为启动器', link: '/Tutorials/SSMT/其它游戏使用SSMT作为启动器/其它游戏使用SSMT作为启动器' },  
           { text: '无法打开SSMT', link: '/Tutorials/SSMT/无法打开SSMT/无法打开SSMT' },  
           
+          { text: 'MMT安装配置教程', link: '/Tutorials/SSMT/MMT安装配置教程/MMT安装配置教程' },  
 
           
         ]
