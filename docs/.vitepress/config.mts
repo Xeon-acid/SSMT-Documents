@@ -20,7 +20,7 @@ export default defineConfig({
       { 
         text: '各游戏常见问题',
         items: [
-          { text: 'GI', link: '/Tutorials/Games/GI/10612-4001解决方案/10612-4001解决方案' },
+          { text: 'GI', link: '/Tutorials/Games/GI/Mod导致报错弹窗问题/Mod导致报错弹窗问题' },
           { text: 'HI3', link: '/Tutorials/Games/HI3/崩坏三角色轮廓线修复/崩坏三角色轮廓线修复' },
           { text: 'HSR', link: '/Tutorials/Games/HSR/UV2是干什么的/UV2是干什么的' },
           { text: 'ZZZ', link: '/Tutorials/Games/ZZZ/Mod法线贴图错误问题/Mod法线贴图错误问题' },
