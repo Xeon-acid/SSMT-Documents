@@ -198,6 +198,7 @@ export default defineConfig({
             { text: '常用链接', link: '/Tutorials/3Dmigoto/常用链接/常用链接' },
             { text: '跨IB渲染教程', link: '/Tutorials/3Dmigoto/跨IB渲染教程/跨IB渲染教程' },
             { text: '3Dmigoto在手游上使用', link: '/Tutorials/3Dmigoto/3Dmigoto在手游上使用/3Dmigoto在手游上使用' },
+            { text: 'DDS贴图格式', link: '/Tutorials/3Dmigoto/DDS贴图格式/DDS贴图格式' },
 
             
             
