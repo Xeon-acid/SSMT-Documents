@@ -15,7 +15,7 @@ export default defineConfig({
       { text: '主页', link: '/' },
       { text: 'SSMT文档', link: '/Tutorials/SSMT/SSMT介绍/SSMT介绍' },
       { text: 'SSMT Blender插件文档', link: '/Tutorials/SSMT-Blender-Plugins/(1)分支集合架构/分支集合架构' },
-      { text: '常用工具', link: '/Tutorials/Tools/Index.md' },
+      { text: '常见问题', link: '/Tutorials/Tools/Index.md' },
       { text: '3Dmigoto', link: '/Tutorials/3Dmigoto/3Dmigoto介绍/3Dmigoto介绍' },
       { 
         text: '各游戏常见问题',
@@ -174,7 +174,7 @@ export default defineConfig({
         },
       ],
       '/Tutorials/Tools/':[{
-        text: '常用工具',
+        text: '常见问题',
         items: [
           { text: 'Vertex Color Master', link: '/Tutorials/Tools/Vertex Color Master/Vertex Color Master' },
           { text: 'Material Combiner', link: '/Tutorials/Tools/Material Combiner/Material Combiner' },
@@ -183,6 +183,8 @@ export default defineConfig({
           { text: 'Handy Weight Edit', link: '/Tutorials/Tools/Handy Weight Edit/Handy Weight Edit' },
           { text: 'Fluid Painter', link: '/Tutorials/Tools/Fluid Painter NSFW/Fluid Painter' },
           { text: 'F2 Addon', link: '/Tutorials/Tools/F2 Addon/F2 Addon' },
+          { text: '多个Mod如何合并为一个按键切换Mod', link: '/Tutorials/Tools/多个Mod如何合并为一个按键切换Mod/多个Mod如何合并为一个按键切换Mod' },
+
         ]
       }],
       '/Tutorials/3Dmigoto/':
