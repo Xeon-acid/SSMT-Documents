@@ -1,0 +1,5 @@
+# 在最新版的NVDIA驱动中，新增了SmoothMotion这个选项
+
+开启SmoothMotion会导致所有带有按键切换面板的Mod无法正常显示。
+
+如果你的3Dmigoto无法正常显示带面板的Mod的面板的话，可以试试在NVDIA驱动中关闭这个选项。

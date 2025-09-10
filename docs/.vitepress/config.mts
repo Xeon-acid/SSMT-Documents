@@ -205,6 +205,8 @@ export default defineConfig({
             { text: '3Dmigoto在手游上使用', link: '/Tutorials/3Dmigoto/3Dmigoto在手游上使用/3Dmigoto在手游上使用' },
             { text: 'DDS贴图格式', link: '/Tutorials/3Dmigoto/DDS贴图格式/DDS贴图格式' },
 
+            { text: 'SmoothMotion不兼容问题', link: '/Tutorials/3Dmigoto/SmoothMotion不兼容问题/SmoothMotion不兼容问题' },
+            { text: '新版本驱动导致无法注入问题', link: '/Tutorials/3Dmigoto/新版本驱动导致无法注入问题/新版本驱动导致无法注入问题' },
             
             
           ]
