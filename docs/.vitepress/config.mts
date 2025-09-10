@@ -37,6 +37,9 @@ export default defineConfig({
          items: [
           { text: 'SSMT-Reverse插件', link: '/Tutorials/Plugins/SSMT-Reverse/(1)SSMT-Reverse插件介绍/(1)SSMT-Reverse插件介绍' },
           { text: 'SSMT-Protect插件', link: '/Tutorials/Plugins/SSMT-Protect/(1)SSMT-Protect插件介绍/(1)SSMT-Protect插件介绍' },
+          { text: 'IgnoreErrorGI插件', link: '/Tutorials/Plugins/IgnoreErrorGI/IgnoreErrorGI插件介绍/IgnoreErrorGI插件介绍' },
+
+          
         ]
       },
     ],
@@ -252,6 +255,15 @@ export default defineConfig({
             { text: '(2)安装方法', link: '/Tutorials/Plugins/SSMT-Protect/(2)安装方法/(2)安装方法' },
             { text: '(3)加密功能说明', link: '/Tutorials/Plugins/SSMT-Protect/(3)加密功能说明/(3)加密功能说明' },
             { text: '(4)Mod锁机器码功能说明', link: '/Tutorials/Plugins/SSMT-Protect/(4)Mod锁机器码功能说明/(4)Mod锁机器码功能说明' },
+
+          ]
+        }
+        ,
+        {
+          text: 'IgnoreErrorGI插件',
+          items: 
+          [
+            { text: 'IgnoreErrorGI插件介绍', link: '/Tutorials/Plugins/IgnoreErrorGI/IgnoreErrorGI插件介绍/IgnoreErrorGI插件介绍' },
 
           ]
         }
