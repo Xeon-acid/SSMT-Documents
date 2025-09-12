@@ -109,8 +109,6 @@ export default defineConfig({
             { text: '原神角色轮廓线修复', link: '/Tutorials/Games/GI/原神角色轮廓线修复/原神角色轮廓线修复' },
             { text: '原神脸部隐藏问题', link: '/Tutorials/Games/GI/原神脸部隐藏问题/原神脸部隐藏问题' },
           
-            { text: 'Mod导致报错弹窗问题', link: '/Tutorials/Games/GI/Mod导致报错弹窗问题/Mod导致报错弹窗问题' },
-          
           ]
         },
         {
@@ -187,7 +185,7 @@ export default defineConfig({
           { text: 'Fluid Painter', link: '/Tutorials/Tools/Fluid Painter NSFW/Fluid Painter' },
           { text: 'F2 Addon', link: '/Tutorials/Tools/F2 Addon/F2 Addon' },
           { text: '多个Mod如何合并为一个按键切换Mod', link: '/Tutorials/Tools/多个Mod如何合并为一个按键切换Mod/多个Mod如何合并为一个按键切换Mod' },
-
+          
         ]
       }],
       '/Tutorials/3Dmigoto/':
