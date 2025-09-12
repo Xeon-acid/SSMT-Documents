@@ -5,6 +5,8 @@
 - 电脑蓝屏死机
 - 电脑意外强制关机，比如断电
 
+因为这种情况会导致SSMT的配置文件直接损坏。
+
 ## 如何恢复
 
 打开你当前用户的AppData的Local目录：
@@ -15,10 +17,8 @@ C:\Users\Administrator\AppData\Local
 
 ![alt text](image.png)
 
-可以看到一个DBMT-Config.json
+可以看到一个DBMT-Config.json，把这个文件删掉
 
-把这个文件删掉
-
-然后删除你的SSMT-Package
+然后删除你的SSMT-Package的Configs目录下面的DBMT-Config.json
 
 重新打开SSMT即可正常使用。
