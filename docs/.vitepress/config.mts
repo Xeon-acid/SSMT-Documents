@@ -37,7 +37,7 @@ export default defineConfig({
          items: [
           { text: 'SSMT-Reverse插件', link: '/Tutorials/Plugins/SSMT-Reverse/(1)SSMT-Reverse插件介绍/(1)SSMT-Reverse插件介绍' },
           { text: 'SSMT-Protect插件', link: '/Tutorials/Plugins/SSMT-Protect/(1)SSMT-Protect插件介绍/(1)SSMT-Protect插件介绍' },
-          { text: 'IgnoreErrorGI插件', link: '/Tutorials/Plugins/IgnoreErrorGI/IgnoreErrorGI插件介绍/IgnoreErrorGI插件介绍' },
+          // { text: 'IgnoreErrorGI插件', link: '/Tutorials/Plugins/IgnoreErrorGI/IgnoreErrorGI插件介绍/IgnoreErrorGI插件介绍' },
 
           
         ]
@@ -258,15 +258,15 @@ export default defineConfig({
 
           ]
         }
-        ,
-        {
-          text: 'IgnoreErrorGI插件',
-          items: 
-          [
-            { text: 'IgnoreErrorGI插件介绍', link: '/Tutorials/Plugins/IgnoreErrorGI/IgnoreErrorGI插件介绍/IgnoreErrorGI插件介绍' },
+        // ,
+        // {
+        //   text: 'IgnoreErrorGI插件',
+        //   items: 
+        //   [
+        //     { text: 'IgnoreErrorGI插件介绍', link: '/Tutorials/Plugins/IgnoreErrorGI/IgnoreErrorGI插件介绍/IgnoreErrorGI插件介绍' },
 
-          ]
-        }
+        //   ]
+        // }
       ],
     },
 
