@@ -39,7 +39,7 @@ SSMT 分为两部分，SSMT 本体与 SSMT 工作目录，即后面要说到的 
 
 进入 SSMT-Package 的 [GitHub 仓库](https://github.com/StarBobis/SSMT-Package)：
 
-![alt text](image-1.png)
+![alt text](image-1.png) 
 
 按图中方式以 `.zip` 格式打包下载本仓库，解压到希望放置的目录。
  
