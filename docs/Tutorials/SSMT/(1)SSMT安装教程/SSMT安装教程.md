@@ -43,7 +43,7 @@ SSMT 分为两部分，SSMT 本体与 SSMT 工作目录，即后面要说到的 
 
 按图中方式以 `.zip` 格式打包下载本仓库，解压到希望放置的目录。
  
-<!-- ![alt text](image-2.png)
+<!-- ![alt text](image-2.png) 
 
 群公告或群文件下载解压并打开SSMT:
 
